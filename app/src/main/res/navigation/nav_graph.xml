@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userPageFragment">
+
+    <fragment
+        android:id="@+id/userPageFragment"
+        android:name="com.lazymindapps.naxamobile.view.UserPageFragment"
+        android:label="Users"
+        tools:layout="@layout/fragment_user_page" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.lazymindapps.naxamobile.view.AboutFragment"
+        android:label="Aboutus"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.lazymindapps.naxamobile.view.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.lazymindapps.naxamobile.view.PostFragment"
+        android:label="Post"
+        tools:layout="@layout/fragment_post" />
+</navigation>
